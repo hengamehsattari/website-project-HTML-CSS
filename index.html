@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>hengameh project1 HTML&CSS</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="top-header">
+        <h1 class="header-logo">Transit</h1>
+        <div class="header-nav-container">
+          <button class="header-menu-burger" onclick="showMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="header-nav" id="menu">
+            <li class="header-nav-item"><a href="#">Home</a></li>
+            <li class="header-nav-item"><a href="#">Generic</a></li>
+            <li class="header-nav-item"><a href="#">Elements</a></li>
+            <li class="header-nav-item">
+              <button class="btn">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-banner">
+        <h1>Hi. This is Transit.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="btn">Lorem ipsum dolor</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="section1">
+        <div class="section1-header">
+          <h1>Consectetur adipisicing elit</h1>
+          <p>
+            Lorem ipsum dolor sit amet, delectus consequatur, similique quia!
+          </p>
+        </div>
+        <div class="section1-content">
+          <div class="section1-content1 box">
+            <i class="fa-cloud icon rounded"></i>
+            <h3 class="sections-h3">Lorem ipsum dolor</h3>
+            <p class="sections-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+              quam consectetur quibusdam magni minus aut modi aliquid.
+            </p>
+          </div>
+          <div class="section1-content2 box">
+            <i class="fa-desktop icon rounded"></i>
+            <h3 class="sections-h3">Lorem ipsum dolor</h3>
+            <p class="sections-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+              quam consectetur quibusdam magni minus aut modi aliquid.
+            </p>
+          </div>
+          <div class="section1-content3 box">
+            <i class="fa-rocket icon rounded"></i>
+            <h3 class="sections-h3">Lorem ipsum dolor</h3>
+            <p class="sections-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+              quam consectetur quibusdam magni minus aut modi aliquid.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="section2-header">
+          <h1>Lorem ipsum dolor sit</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Distinctio, autem.
+          </p>
+        </div>
+
+        <div class="section2-content">
+          <div class="section2-box">
+            <img src="../img/profile_placeholder.gif" alt="" class="profile" />
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="section2-box">
+            <img src="../img/profile_placeholder.gif" alt="" class="profile" />
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="section2-box">
+            <img src="../img/profile_placeholder.gif" alt="" class="profile" />
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="section2-box">
+            <img src="../img/profile_placeholder.gif" alt="" class="profile" />
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor</p>
+          </div>
+        </div>
+        <div class="section2-footer">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+            dolore illum, temporibus veritatis eligendi, aliquam, dolor enim
+            itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab
+            dignissimos ex!
+          </p>
+          <button class="blue-btn">Lorem ipsum dolor sit</button>
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="section3-header">
+          <h1>Consectetur adipisicing elit</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.
+          </p>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message"></textarea>
+        </form>
+        <button class="btn-form">Send Message</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <ul>
+        <li class="footer-item">© Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+      </ul>
+    </div>
+
+    <script>
+      function showMenu() {
+        var menu = document.getElementById("menu");
+
+        if (menu.className === "header-nav") {
+          menu.className += " show";
+        } else {
+          menu.className = "header-nav";
+        }
+      }
+    </script>
+  </body>
+</html>
